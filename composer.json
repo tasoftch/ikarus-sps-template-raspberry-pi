@@ -1,0 +1,20 @@
+{
+  "name": "ikarus/sps-template-raspberry-pi",
+  "description": "A simple template to create a SPS on a raspberry pi",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "yourname",
+	  "email": "email@example.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "MySPS\\": "SPS"
+	}
+  },
+  "require": {
+	"ikarus/sps": "^1.0",
+	"ikarus/sps-raspberry-pi": "^0.2"
+  }
+}
